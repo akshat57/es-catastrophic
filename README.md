@@ -23,27 +23,6 @@ Both methods are evaluated on multiple reasoning tasks including Countdown puzzl
   <em>Left: Countdown vs HellaSwag performance across iterations | Center: Frobenius norm of weight updates | Right: Layer-wise sparsity comparison</em>
 </p>
 
-## Figures
-
-Key results and visualizations from our experiments:
-
-### Main Results
-
-![Main Results](figures/main_results.png)
-*Comparison of ES and GRPO performance across different tasks*
-
-### Sparsity Analysis
-
-![Sparsity Comparison](figures/sparsity_comparison.png)
-*Layer-wise sparsity comparison between ES and GRPO weight updates*
-
-### Training Curves
-
-![Training Curves](figures/training_curves.png)
-*Training dynamics showing reward progression over iterations*
-
-**Note:** To add figures, place image files (PNG, JPG, or PDF) in a `figures/` directory in the repository root, then reference them using the markdown syntax above.
-
 ## Features
 
 - 🚀 **Distributed Training**: ES implementation using Ray/vLLM for efficient multi-GPU training
