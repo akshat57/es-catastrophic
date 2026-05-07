@@ -44,8 +44,8 @@ Both methods are evaluated on multiple reasoning tasks including Countdown puzzl
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd es
+   git clone git@github.com:akshat57/es-catastrophic.git
+   cd es-catastrophic
    ```
 
 2. **Install ES dependencies:**
